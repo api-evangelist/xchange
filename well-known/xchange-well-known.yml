@@ -1,0 +1,42 @@
+generated: '2026-07-21'
+method: searched
+description: >-
+  Results of probing the /.well-known/ discovery surface for the Container
+  xChange hosts (website and platform app). Status is the HTTP code observed
+  at fetch time. No document returned a real, correctly-typed payload:
+  www.container-xchange.com answers 404 for every /.well-known/ path, and
+  app.container-xchange.com answers 200 with a text/html SPA shell ("xChange
+  Platform" Angular app) for every path, so those are recorded as
+  present-but-not-a-real-document and nothing was saved verbatim.
+hosts:
+  - host: https://www.container-xchange.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /llms.txt
+        status: 404
+  - host: https://app.container-xchange.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 200
+        type: text/html
+        note: SPA catch-all shell, not a real security.txt — not saved
+      - path: /.well-known/openid-configuration
+        status: 200
+        type: text/html
+        note: SPA catch-all shell, not a real OIDC discovery document — not saved
+      - path: /v3/api-docs
+        status: 200
+        type: text/html
+        note: SPA catch-all shell, no OpenAPI served — not saved
+      - path: /api/swagger
+        status: 401
+        note: authentication required; no public spec

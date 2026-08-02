@@ -1,8 +1,27 @@
 aid: xchange
 name: xChange
-description: xChange is a company surfaced as a portfolio company of point-nine and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Container xChange is a Hamburg-founded B2B online marketplace and operating
+  platform for shipping containers, where container owners, users, traders, and lessors
+  buy, sell, and lease standard and special containers worldwide. The platform covers
+  container trading, one-way and long-term leasing, payment handling via the xChange
+  Wallet, insurance, container tracking, and market-price insights, plus a live North
+  America container inventory storefront. xChange publishes no public developer API;
+  its xChange Connect integrations (customer supply-listing feeds and depot container-movement
+  reporting) accept data via API or spreadsheet but are onboarded privately through
+  an account manager.
 url: https://raw.githubusercontent.com/api-evangelist/xchange/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.container-xchange.com/xchange-logo-white.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Shipping Containers
+- Logistics
+- Marketplace
+- Container Leasing
+- Container Trading
+- Supply Chain
+- Freight
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/xchange-domain-security.yml
 - type: Website
   url: https://container-xchange.com
+- type: Blog
+  url: https://www.container-xchange.com/blog
+- type: Support
+  url: https://help.container-xchange.com/hc/en-us
+- type: Pricing
+  url: https://www.container-xchange.com/pricing
+- type: SignUp
+  url: https://app.container-xchange.com/signup
+- type: Login
+  url: https://app.container-xchange.com/login
+- type: TermsOfService
+  url: https://www.container-xchange.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.container-xchange.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/container-xchange
+- type: LLMsTxt
+  url: llms/xchange-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

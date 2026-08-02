@@ -1,0 +1,42 @@
+# Container xChange
+
+> Container xChange (xChange, container-xchange.com) is a Hamburg-founded B2B
+> online marketplace and operating platform for shipping containers, where
+> container owners, users, traders, and lessors buy, sell, and lease standard
+> and special containers worldwide. The platform covers container trading, one-way
+> and long-term leasing, payment handling (xChange Wallet), insurance, container
+> tracking/control, and market-price insights, with a live North America container
+> inventory storefront. Backed by Point Nine among other investors.
+
+Container xChange does not publish a public developer API, developer portal, or
+machine-readable API specification. Its "xChange Connect" integrations (customer
+supply-listing feeds and depot container-movement reporting) accept data via API
+or spreadsheet, but onboarding is arranged privately through an account manager
+or service@container-xchange.com — no public API documentation exists.
+
+## Company
+
+- [Website](https://www.container-xchange.com): Container trading and leasing marketplace
+- [About Us](https://www.container-xchange.com/about-us): Company background
+- [Container Trading](https://www.container-xchange.com/container-trading): Buy and sell shipping containers
+- [Container Leasing](https://www.container-xchange.com/container-leasing): One-way and long-term container leasing
+- [Global Services](https://www.container-xchange.com/global-services): International trading and leasing services
+- [Pricing](https://www.container-xchange.com/pricing): Platform pricing
+- [Blog](https://www.container-xchange.com/blog): Container market news and insights
+- [Help Center](https://help.container-xchange.com/hc/en-us): Product and platform support
+- [Platform Login](https://app.container-xchange.com/login): xChange Platform (customers)
+- [Platform Sign Up](https://app.container-xchange.com/signup): Create an xChange account
+- [GitHub Organization](https://github.com/container-xchange): Public repos (challenges, internal tooling only)
+
+## Integrations
+
+- [What is xChange Connect?](https://help.container-xchange.com/hc/en-us/articles/10534869574685-What-is-Connect-Is-there-any-customer-integration-that-can-help-me-add-listings-to-xChange): Customer integration for automatic supply listings (API or Excel, onboarded via account manager)
+- [xChange Connect Integrations](https://help.container-xchange.com/hc/en-us/articles/5152767561501-What-are-xChange-Connect-Integrations): Depot integration for automatic container-movement reporting and report consolidation
+
+## Legal
+
+- [Terms of Use](https://www.container-xchange.com/terms-of-use)
+- [Privacy Policy](https://www.container-xchange.com/privacy-policy)
+- [Imprint](https://www.container-xchange.com/imprint)
+
+<!-- generated: 2026-07-21 | method: generated | source: apis.yml + live probes of container-xchange.com, help.container-xchange.com, app.container-xchange.com, github.com/container-xchange -->
