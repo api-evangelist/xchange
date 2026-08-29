@@ -10,6 +10,17 @@ description: Container xChange is a Hamburg-founded B2B online marketplace and o
   reporting) accept data via API or spreadsheet but are onboarded privately through
   an account manager.
 url: https://raw.githubusercontent.com/api-evangelist/xchange/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
